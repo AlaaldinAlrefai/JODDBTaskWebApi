@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JODDBTask.Api", "JODDBTask\JODDBTask.Api.csproj", "{425C0D52-833D-43E2-B932-D185D9B6A740}"
+	ProjectSection(ProjectDependencies) = postProject
+		{52210A64-0C99-4300-ADDB-773D72AB7B22} = {52210A64-0C99-4300-ADDB-773D72AB7B22}
+		{CC7DCA72-7004-4FBD-A240-925DF584760F} = {CC7DCA72-7004-4FBD-A240-925DF584760F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JODDBTask.Core", "JODDBTask.Core\JODDBTask.Core.csproj", "{CC7DCA72-7004-4FBD-A240-925DF584760F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JODDBTask.Infra", "JODDBTask.Infra\JODDBTask.Infra.csproj", "{52210A64-0C99-4300-ADDB-773D72AB7B22}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CC7DCA72-7004-4FBD-A240-925DF584760F} = {CC7DCA72-7004-4FBD-A240-925DF584760F}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{425C0D52-833D-43E2-B932-D185D9B6A740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{425C0D52-833D-43E2-B932-D185D9B6A740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{425C0D52-833D-43E2-B932-D185D9B6A740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{425C0D52-833D-43E2-B932-D185D9B6A740}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC7DCA72-7004-4FBD-A240-925DF584760F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC7DCA72-7004-4FBD-A240-925DF584760F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC7DCA72-7004-4FBD-A240-925DF584760F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC7DCA72-7004-4FBD-A240-925DF584760F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52210A64-0C99-4300-ADDB-773D72AB7B22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52210A64-0C99-4300-ADDB-773D72AB7B22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52210A64-0C99-4300-ADDB-773D72AB7B22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52210A64-0C99-4300-ADDB-773D72AB7B22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
